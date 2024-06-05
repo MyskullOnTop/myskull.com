@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MySkull's Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #444;
+      text-align: center;
+      padding: 10px 0;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 20px;
+    }
+    nav a:hover {
+      background-color: #555;
+    }
+    .container {
+      width: 80%;
+      margin: auto;
+      overflow: hidden;
+    }
+    .main {
+      float: left;
+      width: 70%;
+      padding: 20px;
+    }
+    .sidebar {
+      float: left;
+      width: 30%;
+      background: #f4f4f4;
+      padding: 20px;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to MySkull's WebPage</h1>
+  </header>
+
+  <nav>
+    <a href="https://www.bing.com/ck/a?!&&p=076d87f676233911JmltdHM9MTcxNzU0NTYwMCZpZ3VpZD0wMjI3YjU3MS0zNWQ2LTZhNzktMzMzYy1hMTA5MzQ3YjZiYmQmaW5zaWQ9NTIxNg&ptn=3&ver=2&hsh=3&fclid=0227b571-35d6-6a79-333c-a109347b6bbd&psq=home+definition&u=a1aHR0cHM6Ly9kaWN0aW9uYXJ5LmNhbWJyaWRnZS5vcmcvZGljdGlvbmFyeS9lbmdsaXNoL2hvbWU&ntb=1">Home</a>
+    <a href="https://www.merriam-webster.com/dictionary/about">About</a>
+    <a href="https://www.bing.com/ck/a?!&&p=efe6db2e11072b31JmltdHM9MTcxNzU0NTYwMCZpZ3VpZD0wMjI3YjU3MS0zNWQ2LTZhNzktMzMzYy1hMTA5MzQ3YjZiYmQmaW5zaWQ9NTIwOQ&ptn=3&ver=2&hsh=3&fclid=0227b571-35d6-6a79-333c-a109347b6bbd&psq=services+definition&u=a1aHR0cHM6Ly9kaWN0aW9uYXJ5LmNhbWJyaWRnZS5vcmcvZGljdGlvbmFyeS9lbmdsaXNoL3NlcnZpY2U&ntb=1">Services</a>
+    <a href="https://www.bing.com/ck/a?!&&p=e2d730df7e7e3610JmltdHM9MTcxNzU0NTYwMCZpZ3VpZD0wMjI3YjU3MS0zNWQ2LTZhNzktMzMzYy1hMTA5MzQ3YjZiYmQmaW5zaWQ9NTIwMw&ptn=3&ver=2&hsh=3&fclid=0227b571-35d6-6a79-333c-a109347b6bbd&psq=contact+definition&u=a1aHR0cHM6Ly93d3cubWVycmlhbS13ZWJzdGVyLmNvbS9kaWN0aW9uYXJ5L2NvbnRhY3Q&ntb=1">Contact</a>
+  </nav>
+
+  <div class="container">
+    <div class="main">
+      <h2>About Me</h2>
+      <p>hello! im MySkull 💀.</p>
+    </div>
+    <div class="sidebar">
+      <h2>My Skills 🤹</h2>
+      <p> Heres what I know!.</p>
+      <p> Minecraft Deving, Minecraft Moderating, Minecraft Administrating, Java, HTML, and some CSS
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 MySkull's Website. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
